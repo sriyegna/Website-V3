@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardText, CardActions, Button } from 'react-mdl';
+import ReactDOM from 'react-dom';
+import "../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import Pikaptcha from '../assets/pikaptcha.png';
+import MultiPhone from '../assets/multiphone.png';
+import Esl from '../assets/esl.png';
+import Osrs from '../assets/osrs.png';
+import Websitev2 from '../assets/websitev2.png';
+import { FaGlasses, FaMale , FaRegBuilding } from 'react-icons/fa';
 
 class LandingPage extends Component {
 
@@ -13,6 +22,7 @@ class LandingPage extends Component {
                     <Grid>
                         <Cell col={4}>
                             <Card className="landing-card" shadow={0}>
+                                <FaGlasses className="landing-card-icon" />
                                 <span className="card-title">My Vision</span>
                                 <CardText className="card-text">
                                 I strive to learn more about both programming and mathematics. I hope to complete my diploma and pursue a degree that would allow me to work in a technology based company whose purpose is to not only innovate and expand their current line of products, but to also invent and expand our knowledge of what we can accomplish as a race.
@@ -24,6 +34,7 @@ class LandingPage extends Component {
                         </Cell>
                         <Cell col={4}>
                             <Card className="landing-card" shadow={0}>
+                                <FaMale className="landing-card-icon" />
                                 <span className="card-title">About Myself</span>
                                 <CardText className="card-text">
                                 At an early age, I was introduced to the world of technology and it's impact on society. During my years of growth, I spent many hours with my computer and grasped the general concept of how Microsoft Windows and the internet work. Over time curiosity got the better of me and I began to write small programs to automate simple things.
@@ -37,6 +48,7 @@ class LandingPage extends Component {
                         </Cell>
                         <Cell col={4}>
                             <Card className="landing-card" shadow={0}>
+                                <FaRegBuilding className="landing-card-icon" />
                                 <span className="card-title">Are You an Employer?</span>
                                 <CardText className="card-text">
                                 My Resume
@@ -59,13 +71,29 @@ class LandingPage extends Component {
                 </div>
                 <div className="past-project">
                     <h3>Past Projects</h3>
-                    <div style={{height:'300px'}}></div>
-                    <div className="past-project-columns">
-                        <Grid>
-                            <Cell col={4}>Pikaptcha</Cell>
-                            <Cell col={4}>MultiPh.one</Cell>
-                            <Cell col={4}>OSRS Quest Calculator</Cell>
-                        </Grid>
+                    <div className="past-project-carousel">
+                        <Carousel showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true} swipeable={true}>
+                            <div>
+                                <img src={MultiPhone} />
+                                <p className="legend">Multiph.one</p>
+                            </div>
+                            <div>
+                            <img src={Esl} />
+                                <p className="legend">ESL</p>
+                            </div>
+                            <div>
+                                <img src={Pikaptcha} />
+                                <p className="legend">Pikaptcha</p>
+                            </div>
+                            <div>
+                                <img src={Osrs} style={{height: '400px', width: 'auto'}} />
+                                <p className="legend">OSRS</p>
+                            </div>
+                            <div>
+                                <img src={Websitev2} />
+                                <p className="legend">Website V2</p>
+                            </div>
+                        </Carousel>
                     </div>
                 </div>
             </div>
