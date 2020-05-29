@@ -56,12 +56,15 @@ code {
   width: auto !important;
 }
 
-.past-projects {
-
-  height: 400px;
+.current-project {
 }
 
-.current-project {
-  height: 400px;
+.past-projects {
+
+}
+
+.past-project-columns {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* Landing page CSS END */

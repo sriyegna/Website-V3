@@ -50,11 +50,23 @@ class LandingPage extends Component {
                         </Cell>
                     </Grid>
                 </div>
-                <div className="past-projects">
-                    some content
+                <div className="current-projects">
+                    <h3>Current Project</h3>
+                    <div style={{height:'300px'}}></div>
+                    <p>StockTracker is an application to perform calculations on various stocks to determine whether or not I should purchase the stock.</p>
+                    <p>Technologies include Angular 8, Python (Flask), MySQL, REST</p>
+                    <a href="#">Visit the GitHub</a>
                 </div>
-                <div className="current-project">
-                    some content 2
+                <div className="past-project">
+                    <h3>Past Projects</h3>
+                    <div style={{height:'300px'}}></div>
+                    <div className="past-project-columns">
+                        <Grid>
+                            <Cell col={4}>Pikaptcha</Cell>
+                            <Cell col={4}>MultiPh.one</Cell>
+                            <Cell col={4}>OSRS Quest Calculator</Cell>
+                        </Grid>
+                    </div>
                 </div>
             </div>
         )
