@@ -34,6 +34,7 @@ code {
 
 .landing-card {
   height: 100%;
+  width: auto !important;
 }
 
 .landing-card-icon {
@@ -56,10 +57,6 @@ code {
 .card-action {
   position: absolute;
   bottom: 0px;
-}
-
-.mdl-card {
-  width: auto !important;
 }
 
 .current-project {
@@ -96,3 +93,10 @@ code {
 }
 
 /* About Me page CSS END */
+
+
+/* Projects page CSS */
+.project-image {
+}
+
+/* Projects page CSS END */
