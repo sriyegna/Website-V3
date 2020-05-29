@@ -21,6 +21,9 @@ code {
   background-color: transparent !important;
 }
 
+.no-bottom-margin {
+  margin-bottom: 0;
+}
 
 /* Landing page CSS */
 .landing-banner {
@@ -99,4 +102,7 @@ code {
 .project-image {
 }
 
+.mdl-list__item-primary-content>span {
+  margin: 0 auto;
+}
 /* Projects page CSS END */
