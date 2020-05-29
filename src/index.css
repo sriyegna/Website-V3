@@ -73,3 +73,26 @@ code {
   margin-right: 20%;
 }
 /* Landing page CSS END */
+
+
+/* About Me page CSS */
+.background-grey {
+  background-color: lightgrey;
+}
+
+.vertical-timeline::before {
+  background: transparent !important;
+}
+
+.vertical-timeline.vertical-timeline--two-columns:before {
+  background: #fff !important;
+}
+
+.vertical-timeline-element-date {
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 150% !important;
+  color: white;
+}
+
+/* About Me page CSS END */
