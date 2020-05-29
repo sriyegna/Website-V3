@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.transparent-header {
+  background-color: transparent !important;
+}
+
+
+/* Landing page CSS */
+.landing-banner {
+  backdrop-filter: blur(2px);
+}
+
+.summary-columns {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.landing-card {
+  height: 100%;
+}
+
+.card-title {
+  font-size: 120%;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10%;
+}
+
+.card-text {
+  margin-bottom: 50px;
+}
+
+.card-action {
+  position: absolute;
+  bottom: 0px;
+}
+
+.mdl-card {
+  width: auto !important;
+}
+
+.past-projects {
+
+  height: 400px;
+}
+
+.current-project {
+  height: 400px;
+}
+/* Landing page CSS END */
