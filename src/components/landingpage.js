@@ -69,10 +69,10 @@ class LandingPage extends Component {
                     <p>Technologies include Angular 8, Python (Flask), MySQL, REST</p>
                     <a href="#">Visit the GitHub</a>
                 </div>
-                <div className="past-project">
+                <div className="past-projects">
                     <h3>Past Projects</h3>
                     <div className="past-project-carousel">
-                        <Carousel showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true} swipeable={true}>
+                        <Carousel className="past-projects" showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true} swipeable={true}>
                             <div>
                                 <img src={MultiPhone} />
                                 <p className="legend">Multiph.one</p>
@@ -84,10 +84,6 @@ class LandingPage extends Component {
                             <div>
                                 <img src={Pikaptcha} />
                                 <p className="legend">Pikaptcha</p>
-                            </div>
-                            <div>
-                                <img src={Osrs} style={{height: '400px', width: 'auto'}} />
-                                <p className="legend">OSRS</p>
                             </div>
                             <div>
                                 <img src={Websitev2} />
