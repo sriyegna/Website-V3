@@ -83,6 +83,14 @@ code {
 
 
 /* About Me page CSS */
+.about-grid {
+  margin: 0 !important;
+}
+
+.progress-bar {
+  height: 100% !important;
+}
+
 .background-grey {
   background-color: lightgrey;
 }

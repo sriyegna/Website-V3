@@ -7,7 +7,7 @@ import MultiPhone from '../assets/multiphone.png';
 import Esl from '../assets/esl.png';
 import Websitev2 from '../assets/websitev2.png';
 import StockTracker from '../assets/stocktrackerfull.png'
-import { FaGlasses, FaMale , FaRegBuilding } from 'react-icons/fa';
+import { FaGlasses, FaUserNinja } from 'react-icons/fa';
 import { GiBrain } from 'react-icons/gi';
 
 class LandingPage extends Component {
@@ -33,7 +33,7 @@ class LandingPage extends Component {
                         </Cell>
                         <Cell col={4}>
                             <Card className="landing-card" shadow={0}>
-                                <FaMale className="landing-card-icon" />
+                                <FaUserNinja className="landing-card-icon" />
                                 <span className="card-title">About Myself</span>
                                 <CardText className="card-text">
                                 At an early age, I was introduced to the world of technology and it's impact on society. During my years of growth, I spent many hours with my computer and grasped the general concept of how Microsoft Windows and the internet work. Over time curiosity got the better of me and I began to write small programs to automate simple things.

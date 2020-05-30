@@ -3,12 +3,54 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import "../../node_modules/react-vertical-timeline-component/style.min.css";
 import { MdSchool, MdWork, MdAccountCircle, MdCode, MdComputer } from 'react-icons/md';
 import { FaRegSmileWink, FaHamburger } from 'react-icons/fa';
-
+import { Card, Grid, Cell, ProgressBar } from 'react-mdl';
+import Ninja from "../assets/ninja.png";
 class About extends Component {
 
     render() {
         return (
             <div>
+                {/* About me section  */}
+                <Card shadow={0} style={{width: '80%', margin: '0 auto'}}>
+                    <Grid className="about-grid">
+                        <Cell col={4}>                            
+                            <img src={Ninja} style={{width: '100%', height: '80%', marginTop: '10%'}} />
+                        </Cell>
+                        <Cell col={8}>
+                            <h4>Hi. In case you haven't figured out, I'm Sri.</h4>
+                            <p>I am a student in the Bachelor of Computing program at the University of Guelph with a genuine passion for software performance and security. I love to learn new languages and tinker around with something new.</p>
+                            <p>I am primarily focused on developing <span className="background-grey">web applications</span> however I also enjoy developing in other languages such as C, C#, and Java. I am currently working at BlackBerry creating a web application using React to help monitor cybersecurity threats using Cylance - artificial based advanced threat detection!</p>
+                            {/* <div>
+                                <Grid>
+                                    <Cell col={2}>
+                                        Web Development
+                                    </Cell>
+                                    <Cell col={10}>
+                                        <ProgressBar className="progress-bar" progress={80} />
+                                    </Cell>
+                                    <Cell col={2}>
+                                        Object-Oriented Programming
+                                    </Cell>
+                                    <Cell col={10}>
+                                        <ProgressBar className="progress-bar" progress={70} />
+                                    </Cell>
+                                    <Cell col={2}>
+                                        Work Ethic
+                                    </Cell>
+                                    <Cell col={10}>
+                                        <ProgressBar className="progress-bar" progress={95} />
+                                    </Cell>
+                                    <Cell col={2}>
+                                        Time Management
+                                    </Cell>
+                                    <Cell col={10}>
+                                        <ProgressBar className="progress-bar" progress={95} />
+                                    </Cell>
+                                </Grid>
+                            </div> */}
+                        </Cell>
+                    </Grid>
+                </Card>
                 {/* Vertical Timeline of events  */}
                 <div className="vertical-timeline">
                     <VerticalTimeline>
