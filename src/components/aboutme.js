@@ -9,6 +9,7 @@ class About extends Component {
     render() {
         return (
             <div>
+                {/* Vertical Timeline of events  */}
                 <div className="vertical-timeline">
                     <VerticalTimeline>
                         <VerticalTimelineElement

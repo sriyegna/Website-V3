@@ -6,10 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #136a8a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: linear-gradient(to right, #267871, #136a8a);
+  */
+
+  background: #525252;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+
 }
 
 code {
@@ -54,7 +61,7 @@ code {
 }
 
 .card-text {
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .card-action {
@@ -103,6 +110,45 @@ code {
 }
 
 .mdl-list__item-primary-content>span {
+  margin: 0 auto;
+}
+
+.container {
+  display: table;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.helper {
+  position: absolute;
+  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content {
+  position: relative;
+  top: -50%;
+  margin: 0 auto;
+  width: 200px;
+  border: 1px solid orange;
+}
+
+html, body, #wrapper {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#wrapper td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mdl-card__supporting-text {
   margin: 0 auto;
 }
 /* Projects page CSS END */

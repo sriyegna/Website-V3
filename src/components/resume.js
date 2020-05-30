@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import ResumePDF from '../assets/resume.pdf'
 
 class Resume extends Component {
 
     render() {
         return (
-            <h1>Resume</h1>
+            <div>
+                <embed src={ResumePDF} type="application/pdf" width="100%" height="800px" />
+            </div>
         )
     }
 }

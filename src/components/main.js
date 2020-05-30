@@ -3,7 +3,6 @@ import LandingPage from './landingpage';
 import Resume from './resume';
 import About from './aboutme';
 import Projects from './projects';
-import Contact from './contact';
 import {Switch, Route} from 'react-router-dom';
 
 const Main = () => (
@@ -12,7 +11,6 @@ const Main = () => (
         <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
     </Switch>
 )
 
