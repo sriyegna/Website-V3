@@ -16,7 +16,7 @@ class Projects extends Component {
             <div className="container">
                 <div>
                     <Bounce left>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">StockTracker</h3>
                             <CardText>
                                 An application to perform calculations on historic stock data and present the data to the user using easy to read charts. StockTracker will gather data such as Discount Cash Flow, Open and Close data, and perform Mean Revision calculations over n-days. Using this data, users can plot whether the stock is increasing or decreasing over an n-day period. StockTracker can also track profits or losses in purchased stocks.
@@ -30,7 +30,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>Bootstrap</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>REST</ListItem>
                                 </List>
-                                <img src={StockTracker} />
+                                <img className="project-image" src={StockTracker} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -42,7 +42,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce right>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">MultiPh.one</h3>
                             <CardText>
                                 <strong>Discontinued</strong> due to server costs and costs of purchasing numbers
@@ -59,7 +59,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>REST</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>IIS</ListItem>
                                 </List>
-                                <img src={MultiPhone} />
+                                <img className="project-image" src={MultiPhone} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -71,7 +71,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce left>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">Old School RuneScape Quest Calculator</h3>
                             <CardText>
                                 An application that lets users determine what Quests they are eligible to complete. The calculator can pull your account data from the RuneScape high scores (if you are on there) and populate your skill levels. The user can then select which quests they have completed already and will then be shown what quests they are eligible for.
@@ -80,7 +80,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>C#</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>REST</ListItem>
                                 </List>
-                                <img src={Osrs} />
+                                <img className="project-image" src={Osrs} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -92,7 +92,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce right>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">Pikaptcha</h3>
                             <CardText>
                                 An application created during the Pokemon Go craze. The application can be used to generate Pokemon Go accounts and allows the user to bypass Google reCaptcha if the user pays for 2Captcha services.
@@ -103,7 +103,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>REST</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>2Captcha API</ListItem>
                                 </List>
-                                <img src={Pikaptcha} />
+                                <img className="project-image" src={Pikaptcha} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -115,7 +115,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce left>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">Emergency Services Locator</h3>
                             <CardText>
                                 'ESL' is a web application that allows users to locate nearby emergency services such as Police Stations, Fire Stations, and Hospitals. The web application can use HTML5 geolocation to locate the user and determine which is the closest facility to their location. Additionally, users can limit which service they want to locate, and add new facilities to the list.
@@ -131,7 +131,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>BingMaps</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>OpenData API</ListItem>
                                 </List>
-                                <img src={Esl} />
+                                <img className="project-image" src={Esl} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -143,7 +143,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce right>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">Website V2</h3>
                             <CardText>
                                 This is the second attempt at creating my personal website.
@@ -154,7 +154,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>JavaScript</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>Bootstrap</ListItem>
                                 </List>
-                                <img src={Websitev2} />
+                                <img className="project-image" src={Websitev2} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>
@@ -166,7 +166,7 @@ class Projects extends Component {
                     </Bounce>
 
                     <Bounce left>
-                        <Card shadow={0} style={{width: "80%", margin: '30px auto'}}>
+                        <Card className="project-card" shadow={0}>
                             <h3 className="no-bottom-margin">Website V1</h3>
                             <CardText>
                             This is the first attempt at creating my personal website.
@@ -176,7 +176,7 @@ class Projects extends Component {
                                     <ListItem style={{minHeight:0, paddingTop:0}}>CSS</ListItem>
                                     <ListItem style={{minHeight:0, paddingTop:0}}>PHP</ListItem>
                                 </List>
-                                <img src={Websitev1} />
+                                <img className="project-image" src={Websitev1} />
                             </CardText>
                             <CardActions border>
                                 <a href="https://github.com/sriyegna/Verifit"><Button colored>GitHub</Button></a>

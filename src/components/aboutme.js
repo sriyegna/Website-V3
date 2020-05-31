@@ -38,6 +38,7 @@ class About extends Component {
                                             height={100}
                                             clickToggle={false}
                                             startAngle={-90}
+                                            colors={['#03b6fc']}
                                             data={[{
                                                 value: 85
                                             },                                
@@ -54,11 +55,12 @@ class About extends Component {
                                             height={100}
                                             clickToggle={false}
                                             startAngle={-90}
+                                            colors={['#03b6fc']}
                                             data={[{
-                                                value: 85
+                                                value: 80
                                             },                                
                                             {
-                                                value: 15,
+                                                value: 20,
                                                 isEmpty: true
                                             }]}
                                             legend={false} />
@@ -70,11 +72,12 @@ class About extends Component {
                                             height={100}
                                             clickToggle={false}
                                             startAngle={-90}
+                                            colors={['#03b6fc']}
                                             data={[{
-                                                value: 85
+                                                value: 90
                                             },                                
                                             {
-                                                value: 15,
+                                                value: 10,
                                                 isEmpty: true
                                             }]}
                                             legend={false} />
@@ -86,11 +89,12 @@ class About extends Component {
                                             height={100}
                                             clickToggle={false}
                                             startAngle={-90}
+                                            colors={['#03b6fc']}
                                             data={[{
-                                                value: 85
+                                                value: 90
                                             },                                
                                             {
-                                                value: 15,
+                                                value: 10,
                                                 isEmpty: true
                                             }]}
                                             legend={false} />

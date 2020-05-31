@@ -38,6 +38,24 @@ code {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .visible-on-mobile {
+    display: block;
+  }
+  .visible-on-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .visible-on-mobile {
+    display: none;
+  }
+  .visible-on-desktop {
+    display: block;
+  }
+}
+
 
 /* Landing page CSS */
 .landing-banner {
@@ -102,10 +120,7 @@ code {
   .about-avatar {
     width: 50% !important;
   }
-
-
 }
-
 
 .donutchart-innertext-value {
   display: none;
@@ -134,7 +149,17 @@ code {
 
 
 /* Projects page CSS */
+.project-card {
+  width: 80vw !important;
+  margin-left: 10vw !important;
+  margin-right: 10vw !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .project-image {
+  width: 100%;
+  height: auto;
 }
 
 .mdl-list__item-primary-content>span {
@@ -180,3 +205,12 @@ html, body, #wrapper {
   margin: 0 auto;
 }
 /* Projects page CSS END */
+
+/* Resume page CSS */
+.resume-image {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* Resume page CSS END */
