@@ -32,6 +32,13 @@ code {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 1126px) {
+  .container {
+    margin-top: 64px;
+  }
+}
+
+
 /* Landing page CSS */
 .landing-banner {
   backdrop-filter: blur(2px);
@@ -87,8 +94,21 @@ code {
   margin: 0 !important;
 }
 
-.progress-bar {
-  height: 100% !important;
+@media only screen and (max-width: 923px) {
+  .about-cell {
+    width: 100% !important;
+  }
+
+  .about-avatar {
+    width: 50% !important;
+  }
+
+
+}
+
+
+.donutchart-innertext-value {
+  display: none;
 }
 
 .background-grey {
