@@ -75,7 +75,7 @@ class LandingPage extends Component {
                         </p>
                     </div>
                     {/* Previous Projects carousel  */}
-                    <div className="past-projects">
+                    <div className="past-projects" style={{marginBottom: '30px'}}>
                         <h3 style={{color: 'white'}}>Past Projects</h3>
                         <div className="past-project-carousel">
                             <Carousel className="past-projects" showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true} swipeable={true}>

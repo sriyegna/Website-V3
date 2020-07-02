@@ -32,17 +32,17 @@ code {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 1126px) {
+@media only screen and (max-width: 992px) {
   .container {
     margin-top: 64px;
   }
-}
-
-@media only screen and (max-width: 992px) {
   .visible-on-mobile {
     display: block;
   }
   .visible-on-desktop {
+    display: none;
+  }
+  .legend {
     display: none;
   }
 }
@@ -92,12 +92,6 @@ code {
 .card-action {
   position: absolute;
   bottom: 0px;
-}
-
-.current-project {
-}
-
-.past-projects {
 }
 
 .past-project-carousel {
